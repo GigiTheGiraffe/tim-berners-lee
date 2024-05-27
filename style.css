@@ -6,12 +6,228 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vh;
+    background-color: #FAFAFA;
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 799px) {
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
 
+    body {height: 100vh;}
+
+    header {background-color: #03182E;
+    width: 100vw;
+    box-sizing: border-box;
+    height: 60px;
+    }
+    
+    nav img {
+        height: 25px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        align-items: center;
+        height: 100%;
+        margin: 5px;
+    }
+
+    nav li, .little-nav {
+        display: inline-flex;
+        list-style-type: none;
+        padding-left: 5px;
+        padding-right: 10px;
+      }
+
+    nav, nav a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .subscribe {
+        background-color: #A71600;
+        border-radius: 5px;
+        border: black solid 1px;
+        padding: 5px 10px;
+        margin-right: 15px;
+    }
+
+    .nav-button-right {
+        margin-left: auto;
+        margin-right: 40px;
+    } 
+
+    .nav-button-left {
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-button-left li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: 850px;
+        height: auto;
+        margin-left: 20px;
+        border-left: #D0D7DE solid 1px;
+        line-height: 1.5em;
+    }
+
+    #first-container { 
+        margin-left: 20px;
+        border: #D0D7DE solid 1px; 
+        padding-left: 20px;
+        background-color: white;
+    }
+
+    .little-nav i {
+            align-content: center;
+            margin: 0 10px;
+    }
+
+    aside img {
+        padding-top: 10px;
+        width: 250px;
+        height: 270px;
+    }
+
+    #main-aside {
+        display: flex;
+    }
+
+    #main-aside section {
+        width: 60%;
+    }
+
+    aside {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        border: #D0D7DE solid 1px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+
+    #top-info {
+        width: 55%;
+    }
+
+    .little-nav {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        font-weight: 500;
+        margin: 10px 0;
+    }
+
+    #social {
+        display: flex;
+        list-style-type: none;
+        color: #12439C;
+        justify-content: space-between;
+    }
+
+    #social li {
+        border: #E7E7E7 solid 1px;
+        border-radius: 10px;
+        padding: 5px 7px;
+        font-size: 1em;
+        margin-right: 10px;
+    }
+
+    #social i {
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #social a, #social a:hover, #social a:visited {
+        text-decoration: none;
+        font-weight: bolder;
+        color: #12439C;
+    }
+
+    #dots {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 3px;
+    }
+
+    .alternate {
+        margin-top: 8px;
+        color: gray;
+        font-style: italic;
+        font-size: 0.9em;
+        margin-bottom: -5px;
+    }
+
+    .grey {color: gray;}
+
+    #author { 
+        font-size: 0.9em;
+        margin-bottom: 30px;
+    }
+
+    .strong {font-weight: bold;}
+
+    .italic {font-style: italic;}
+
+    .biography {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    width: 95%;
+}
+
+    p a, p a:visited {text-decoration: none;}
+
+    .dotted, .dotted:visited { text-decoration: underline dotted;}
+
+    aside a {text-decoration: none;}
+
+    #related { 
+        padding: 10px 20px;
+        font-size: 1.1em;
+        width: auto;
+        border: #E7E7E7 solid 1px;
+        border-radius: 10px;
+        line-height: 1.5em;
+        color: #0000EF;
+    }
+
+    #related a {margin-right: 5px;}
+
+    hr {
+        color: #D0D7DE;
+        width: 90%;
+    }
+
+    aside p  {font-size: 1.1em;}
+
+    .legende {align-self: flex-start;}
 }
