@@ -6,7 +6,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100vh;
+    width: 100svh;
     background-color: #FAFAFA;
 }
 
@@ -15,8 +15,6 @@ body {
 }
 
 @media only screen and (min-width: 800px) {
-
-    body {height: 100vh;}
 
     header {background-color: #03182E;
     width: 100vw;
@@ -79,7 +77,7 @@ body {
 
     main {
         width: 850px;
-        height: auto;
+        height: 100%;
         margin-left: 20px;
         border-left: #D0D7DE solid 1px;
         line-height: 1.5em;
@@ -199,9 +197,9 @@ body {
     .italic {font-style: italic;}
 
     .biography {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.5em;
-    width: 95%;
+    width: 97%;
 }
 
     p a, p a:visited {text-decoration: none;}
