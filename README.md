@@ -31,7 +31,7 @@
 ## Lien vers le site   
 
 -[*Version mobile*]().   
--[*Version desktop*]().     
+-[*Version desktop*](https://gigithegiraffe.github.io/tim-berners-lee/).     
    
 ---   
 
