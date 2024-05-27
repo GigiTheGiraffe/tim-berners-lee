@@ -16,7 +16,7 @@
    
 ## Lien vers le site   
 
--[*Page de sur Tim Berners Lee*](https://gigithegiraffe.github.io/tim-berners-lee/).     
+-[*Git Page sur Tim Berners Lee*](https://gigithegiraffe.github.io/tim-berners-lee/).     
    
 ---   
 
