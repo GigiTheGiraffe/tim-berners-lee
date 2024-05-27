@@ -5,8 +5,12 @@
 ## Info   
    
 - Je suis un jeune développer de 2 semaines qui entame une reconversion professionnelle grâce à [BeCode](https://becode.org/fr/), voici une petite [présentation](https://github.com/GigiTheGiraffe/GigiTheGiraffe.github.io?tab=readme-ov-file) de moi-même.   
+   
 - Dans le cadre de cet exercice, j'ai du créer un pixel-perfect à partir de mockups existant.   
+   
 - Il y a deux version, une pour **mobile** et une pour **desktop**.   
+   
+- Ce site est un article portant sur le ***créateur*** d'Internet, [*Tim Berners-Lee*](https://fr.wikipedia.org/wiki/Tim_Berners-Lee)!
    
 ---   
    
@@ -14,11 +18,13 @@
    
 - ### Version mobile   
      
-  ![Image mockup mobile]()   
+  ![Image mockup mobile](images/timBernersLeeMockupMobile1.png)
+  ![Image mockup mobile suite](images/timBernersLeeMockupMobile2.png)
+
      
 - ### Version desktop    
 
-  ![Image mockup desktop]()   
+  ![Image mockup desktop](images/timBernersLeeMockupDesktop.png)   
 
 ---   
 
