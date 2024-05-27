@@ -10,7 +10,7 @@
    
 - Il y a deux version, une pour **mobile** et une pour **desktop**.   
    
-- Ce site est un article portant sur le ***créateur*** d'**HTMl**, [*Tim Berners-Lee*](https://fr.wikipedia.org/wiki/Tim_Berners-Lee)!
+- Ce site est un article portant sur le ***créateur*** d'**HTML**, [*Tim Berners-Lee*](https://fr.wikipedia.org/wiki/Tim_Berners-Lee)!
 
 ---   
    
