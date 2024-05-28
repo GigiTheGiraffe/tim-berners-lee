@@ -116,6 +116,11 @@ body {
             align-items: center;
             margin: 1px;
         }
+
+        .category {
+            border-radius: 20px;
+
+        }
 }
 
 @media only screen and (min-width: 700px) {
@@ -159,7 +164,7 @@ body {
         background-color: #A71600;
         border-radius: 5px;
         border: black solid 1px;
-        padding: 5px 10px;
+        padding: 10px 10px;
         margin-right: 15px;
     }
 
