@@ -13,15 +13,15 @@
             <nav>
                 <img src="images/logo-tim-berners-britanica.webp" alt="Logo Brittanica">
                 <ul class="nav-button-left">
-                    <li>&#9776;&nbsp;<a href="">Browse</a></li>
-                    <li><i class="fa-solid fa-magnifying-glass"></i>&nbsp;</i><a href="">Search</a></li>
-                    <li><a href="#">Dictionary</a></li>
-                    <li><a href="#">Quizzes</a></li>
-                    <li><a href="#">Money</a></li>
+                    <li>&#9776;&nbsp;<a href="" class="hid-mob">Browse</a></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i>&nbsp;</i><a href="" class="hid-mob">Search</a></li>
+                    <li><a href="#" class="hid-mob">Dictionary</a></li>
+                    <li><a href="#" class="hid-mob">Quizzes</a></li>
+                    <li><a href="#" class="hid-mob">Money</a></li>
                 </ul>
                 <ul class="nav-button-right">
                     <li class="subscribe"><a href="#">Subscribe</a></li>
-                    <li><a href="#">Login</a>&nbsp;<i class="fa-solid fa-angle-down"></i></li>
+                    <li><a href="#" class="hid-mob">Login</a></i><span class="hid-des"><i class="fa-regular fa-circle-user"></i></span></i>&nbsp;<i class="fa-solid fa-angle-down"></i></li>
                 </ul>
             </nav>
         </header>
@@ -34,23 +34,27 @@
                 </ul>
             </section>
             <section id="first-container">
-                <section id="top-info">
+                <hgroup id="top-info">
+                    <!-- add buton science & tech / actions-->
                         <h1>Tim Berners-Lee</h1>
                         <h2>British scientist</h2>
-                        <ul id="social">
+                        <ul id="social" class="hid-mob">
                             <li><i class="fa-solid fa-print"></i><a href="#">Print</a></li>                                
                             <li><i class="fa-solid fa-circle-check"></i><a href="#">Cite</a></li>
                             <li><i class="fa-solid fa-share-nodes"></i><a href="#">Share</a></li>
                             <li><i class="fa-regular fa-comment-dots"></i><a href="#">Feedback</a></li>
                             <li><a href="#"><i id="dots" class="fa-solid fa-ellipsis-vertical"></i></a></li>
                        </ul>
-                        <p class="alternate">Alternate titles: Sir Tim Berners-Lee</p>
                         <article>
-                            <p id="author">By <a href="#">Michael Aaron Dennis</a> <span class="grey">•Last Updated: Dec 2,2022 </span>• <a href="#">Edit History</a></p>
+                            <p class="alternate" class="hid-mob">Alternate titles: Sir Tim Berners-Lee</p>
+                            <p id="author" class="hid-mob">By <a href="#">Michael Aaron Dennis</a> <span class="grey">•Last Updated: Dec 2,2022 </span>• <a href="#">Edit History</a></p>
+                            <!--Add written by, fact-checkep, updated -->
                         </article>
-                </section>
+                        <!-- add table of contes WITH icons, add audio button in a new section-->
+                    </hgroup>
                 <section id="main-aside">
                     <section>
+                        <!--add sticky table of content with name of TBL-->
                         <article class="biography">
                             <p><span class="strong">Tim Berners-Lee</span>, in full <span class="strong">Sir Tim Berners-Lee</span>, (born June 8, 1955, <a href="#">London</a>, England), British computer scientist, generally <a href="#" class="dotted">credited</a> as the inventor of the <a href="#">World Wide Web</a>. In 2004 he was awarded a knighthood by <a href="#">Queen Elizabeth II</a> of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.</p>
                             <br>
@@ -58,10 +62,11 @@
                         </article>
                     </section>
                     <aside>
-                        <img src="images/British-scientist-Tim-Berners-Lee.webp" alt="Image of Tim Berners-Lee">
+                        <img src="images/British-scientist-Tim-Berners-Lee.webp" alt="Image of Tim Berners-Lee"> <!-- add polaroid effect-->
                         <p class="legende">Tim Berners-Lee</p>
                         <h3><a href="#">See all media</a></h3>
                         <hr>
+                        <!-- add a category, in-full:-->
                         <p><span class="strong">Born:</span> June 8, 1955 (age 67) • <a href="#">London</a> • <a href="#">England</a></p>
                         <p><span class="strong">Founder:</span> <a href="#">World Wide Web Consortium</a></p>
                         <p><span class="strong">Inventions:</span> <a href="#">World Wide Web</a> • <a href="#">World Wide Web</a></p>
