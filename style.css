@@ -10,6 +10,8 @@ body {
     background-color: #FAFAFA;
 }
 
+.italic {font-style: italic;}
+
 @media only screen and (max-width: 699px) {
 
     .hid-mob {display: none;}
@@ -78,7 +80,6 @@ body {
             padding-bottom: 0.5rem;
             padding-left: 0.2rem;
             padding-right: 0.2rem;
-            order: 1;
             font-size: 0.8em;
             margin: 1vw;
         }
@@ -86,7 +87,7 @@ body {
         .nav-button-right {
             order: 3;
             display: flex;
-            flex: 5;
+            flex: 2;
             align-items: center;
             margin-right: 5px;
             justify-content: flex-end;
@@ -101,6 +102,7 @@ body {
 
         .nav-button-right li:nth-child(2) {
             justify-content: right;
+            order: -1;
         }
     
         .nav-button-left {
@@ -117,10 +119,58 @@ body {
             margin: 1px;
         }
 
+        main {
+            width: 850px;
+            height: 100%;
+            margin-left: 20px;
+            line-height: 1.5em;
+        }
+
         .category {
             border-radius: 20px;
-
+            background-color: #FED7AA;
+            padding: 5px;
+            border: none;
+            font-weight: bold;
+            font-size: 0.8em;
+            margin-top: 40px;
+            margin-bottom: 10px;
         }
+
+        #top-info h1 {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        #top-info h2 {
+            font-size: 1.5em;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+
+        #actions {
+            position: absolute;
+            right: 20px;
+            color: #005298;
+            font-weight: 600;
+            padding: 7px;
+            top: 150px;
+            border: gray 1px solid;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .italic {
+            margin-bottom: 5px;
+            font-size: 0.8em;
+        }
+
+        hgroup article a {text-decoration: none;}
+
+        hgroup p {font-size: 14px;}
+
+        .dotted {text-decoration: underline dotted;}
+
 }
 
 @media only screen and (min-width: 700px) {
@@ -303,8 +353,6 @@ body {
     }
 
     .strong {font-weight: bold;}
-
-    .italic {font-style: italic;}
 
     .biography {
     font-size: 1.2em;
